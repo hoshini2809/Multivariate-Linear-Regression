@@ -21,6 +21,7 @@ Create the linear regression model and fit.
 Predict the CO2 emission of a car where the weight is 2300kg, and the volume is 1300cm cube.
 
 ## Program:
+```
 Developed by: Hoshini S
 RegisterNumber: 2305003006
 import pandas as pd
@@ -34,8 +35,9 @@ print("Coefficient:",regr.coef_)
 print("Intercept:",regr.intercept_)
 predictedCO2=regr.predict([[3300,1300]])
 print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
-  
-## Output:
+```
+
+  ## Output:
 
 ![Screenshot 2024-05-24 204952](https://github.com/hoshini2809/Multivariate-Linear-Regression/assets/170595101/b2c9ce40-9813-4b3c-a30b-ebd415fb6ac2)
 
